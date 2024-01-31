@@ -1,0 +1,156 @@
+body {
+    background-color: rgb(239, 236, 225);
+    font-family:monospace
+}
+
+nav ul {
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 3vw;  
+    margin-bottom: 3vw;  
+    margin-left: 1vw;
+    margin-right: 1vw;
+    list-style: none; 
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+}
+
+.team-avatar {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.intro {
+    display: block;
+    justify-content: center;
+    text-align: center;
+    margin-top: 4vw;
+    margin-bottom: 2vw;
+    margin-left: 15vw;
+    margin-right: 15vw;
+    font-weight: 200;
+    color: rgb( 120, 44, 24);
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    font-weight: 100;
+    font-size: xx-large;
+}
+
+.breakdown {
+    display: flex;
+    justify-content: center;
+    font-weight: 100;
+    font-size: large;
+}
+
+.characterss {
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 2em;
+
+}
+
+.aang {
+    display: flex;
+    justify-content: center;
+    font-weight: 100;
+    font-size: large;
+}
+
+.avatar {
+    display: flex;
+    justify-content: center;
+    max-width: 15vw;
+    margin: 0px auto;  
+}
+
+.avatar-verhaal {
+    display: block;
+    justify-content: center;
+    text-align: center;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+    margin-left: 15vw;
+    margin-right: 15vw;
+    font-weight: 200;
+    color: black;
+}
+
+nav a {
+    display: block;
+    justify-content: center;
+    text-align: center;
+}
+
+.aang-baby {
+    display: flex;
+    justify-content: center;
+    max-width: 15vw;
+    margin: 0px auto;  
+}
+
+.history {
+    display: block;
+    justify-content: center;
+    text-align: center;
+    margin-top: 4vw;
+    margin-bottom: 2vw;
+    margin-left: 15vw;
+    margin-right: 15vw;
+    font-weight: 200;
+    color: black;
+}
+
+.others {
+    display: flex;
+    justify-content: center;
+    margin-top: 3vw;
+}
+
+a:hover {
+    color: black;
+    background-color: rgb(230, 205, 173);
+}
+
+.all-bending {
+    display: flex;
+    justify-content: center;
+    max-width: 15vw;
+    margin: 0px auto; 
+}
+
+.aang-abilities-verhaal {
+    display: block;
+    justify-content: center;
+    text-align: center;
+    margin-top: 4vw;
+    margin-bottom: 2vw;
+    margin-left: 15vw;
+    margin-right: 15vw;
+    font-weight: 200;
+    color: black;
+}
+
+footer {
+    display:block ;
+    justify-content: center;
+    position: sticky;
+    margin-top: 7vw;
+    margin-bottom: 15px;
+}
+
+footer p {
+    display:flex ;
+    justify-content: center;
+}
+
